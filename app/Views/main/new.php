@@ -27,8 +27,8 @@
                 <div class="form-group">
                     <label for="example-main-lokasi">Lokasi</label>
                     <select class="form-control" name="lokasi" id="example-main-lokasi">
-                        <option value="Dalam Jabodetabek" <?= ($data['lokasi'] == 'Dalam Jabodetabek') ? 'selected' : ''; ?>>Dalam Jabodetabek</option>
-                        <option value="Luar Jabodetabek" <?= ($data['lokasi'] == 'Luar Jabodetabek') ? 'selected' : ''; ?>>Luar Jabodetabek</option>
+                        <option value="Dalam Jabodetabek">Dalam Jabodetabek</option>
+                        <option value="Luar Jabodetabek">Luar Jabodetabek</option>
                         
                     </select>
                 </div>
